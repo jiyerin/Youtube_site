@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="main.js" defer></script>
+    <title>Youtube Mobile</title>
+    <script src="https://kit.fontawesome.com/976f26d2bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo"> 
+            <i class="fa-brands fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+
+    <section class="player" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UqzHPE9BI7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <!-- Video Info & Up next -->
+    <div class="infoAndUpNext">
+        <!-- Video info -->
+        <section class="info">
+            <!-- Metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#마루는 강쥐</li>
+                    <li>#강아지, 사람되다</li>
+                    <li>#노래하는 강아지</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">🤎🐶 ‘마루는 강쥐’ OST 대공개🐶🤎
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1M views 1 months</span>
+            </div>
+            <!-- Action buttons -->
+            <ul class="actions">
+                <li>
+                    <button>
+                        <i class="active fa-solid fa-thumbs-up"></i><span>1k</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-solid fa-thumbs-down"></i><span>0</span>
+                    </button>
+                </li>
+                <li></li>
+                    <button><i class="fa-solid fa-share-nodes"></i><span>share</span>
+                    </button>
+                </li>
+                <li>
+                    <button><i class="fa-solid fa-download"></i><span>save</span>
+                    </button>
+                </li>
+                <li>
+                    <button><i class="fa-solid fa-ellipsis"></i><span>etc</span>
+                    </button>
+                </li>
+            </ul>
+            <!-- chnnel Description -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="img/maru0.png" alt="" />
+                    <div class="info">
+                        <span class="name">마루</span>
+                        <span class="subscribers">구독자 100만명</span>
+                    </div>
+                </div>
+                <button class="subscribe">구독</button>
+            </div>
+            </section>
+            <!-- Up Next -->
+            <section class="UpNext">
+                <span class="title">Up next</span>
+                <ul>
+                    <li class="item">
+                        <div class="img"><img src="img/maru1.webp" alt=""></div>
+                        <div class="iteminfo">
+                            <span class="title">움직이는 마루 #1 사람이 된 강아지</span>
+                            <span class="name">마루</span>
+                            <span class="views">82K views</span>
+                        </div>
+                        <button class="moreBtn"><i class="fa-solid fa-ellipsis"></i></button>
+                    </li>
+                    <li class="item">
+                        <div class="img"><img src="img/maru2.webp" alt=""></div>
+                        <div class="iteminfo">
+                        <span class="title">움직이는 마루 #2 언니, 나 잘했어?</span>
+                        <span class="name">마루</span>
+                        <span class="views">100K views</span>
+                        </div>
+                        <button class="moreBtn"><i class="fa-solid fa-ellipsis"></i></button>
+                    </li>
+                    <li class="item"></li>
+                </ul>
+            </section>
+    </div>
+</body>
+</html> 
